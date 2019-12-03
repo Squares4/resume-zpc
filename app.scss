@@ -83,7 +83,6 @@ video {
   margin: 0;
   padding: 0;
   border: 0;
-  font: inherit;
   font-size: 100%;
   vertical-align: baseline;
 }
@@ -95,6 +94,10 @@ html {
 ol,
 ul {
   list-style: none;
+}
+
+li {
+  list-style-type:none;
 }
 
 table {
@@ -121,6 +124,10 @@ q:after,
 q:before {
   content: "";
   content: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 a img {

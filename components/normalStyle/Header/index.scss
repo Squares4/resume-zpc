@@ -1,0 +1,71 @@
+@import "../base.scss";
+
+.header {
+  padding: 30px 40px;
+  background: $color-bg;
+  color: $color-font;
+}
+
+.name {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #515585;
+  h1 {
+    font-size: 50px;
+    font-weight: 500;
+    small {
+      font-weight: 400;
+      font-size: 24px;
+      margin-left: 10px;
+    }
+    color: $color-font-title;
+  }
+  h2 {
+    font-size: 24px;
+    font-weight: 300;
+    align-self: flex-end;
+    color: $color-font-vice;
+  }
+}
+
+.info {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.school {
+  font-size: 18px;
+  li {
+    padding: 8px 0;
+  }
+}
+
+.connect {
+  font-size: 16px;
+  li {
+    padding: 6px 0;
+  }
+}
+
+.hLink {
+  color: $color-font;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  a {
+    color: $color-font;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
+
+.hIcon {
+  width: 16px;
+  height: 16px;
+  margin-left: 8px;
+}

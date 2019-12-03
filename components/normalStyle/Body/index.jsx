@@ -3,9 +3,9 @@ import style from './index.scss';
 
 const Body = () => {
   return (
-    <Fragment>
+    <main className={style.mBody}>
       body
-    </Fragment>
+    </main>
   )
 }
 

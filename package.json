@@ -15,6 +15,7 @@
     "react-dom": "16.12.0"
   },
   "devDependencies": {
+    "@svgr/webpack": "^4.3.3",
     "eslint": "^6.7.2",
     "eslint-plugin-react": "^7.17.0"
   }
