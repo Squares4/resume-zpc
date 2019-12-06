@@ -8,9 +8,17 @@ body {
   box-sizing: border-box;
 }
 
+@media print {
+  body {
+    padding: 0;
+    margin: 0;
+  }
+}
+
 .gWarp {
   color: #333;
   width: 1024px;
+  // height: 1450px; // A4 大小
   margin: 50px auto;
   box-shadow: 0 0 30px rgb(201, 201, 201);
   background: #fff;
@@ -22,5 +30,9 @@ body {
     width: 100%;
     margin: 0;
     border-radius: 0;
+  }
+  @media print {
+    margin: 0;
+    height: 1450px; // A4 大小
   }
 }
