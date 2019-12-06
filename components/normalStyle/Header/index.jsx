@@ -1,46 +1,82 @@
 import React from "react";
 import style from "./index.scss";
 
+const {
+  resumeData: { headerData }
+} = global;
+
 const Header = () => {
   return (
     <header className={style.header}>
       <section className={style.name}>
         <h1>
-          赵朋承<small>Zhao PengCheng</small>
+          {headerData.name}
+          {headerData.englishName ? (
+            <small>{headerData.englishName}</small>
+          ) : null}
         </h1>
-        <h2>求职意向：Web前端工程师</h2>
+        <h2>
+          {headerData.job}
+          {headerData.jobNote ? <small>{headerData.jobNote}</small> : null}
+        </h2>
       </section>
       <section className={style.info}>
         <div className={style.school}>
           <ul>
-            <li>男 ｜ 1999.10</li>
-            <li>本科 ｜ 2021年毕业</li>
-            <li>重庆邮电大学 ｜ 软件工程专业</li>
+            {headerData.school.map((item, index) => (
+              <li key={index}>{item}</li>
+            ))}
           </ul>
         </div>
         <div className={style.connect}>
           <ul>
             <li className={style.hLink}>
-              <a href="#">
-                <span>https://wwwwwww</span>
-                <img className={style.hIcon} src='/static/home.svg' alt="home" />
+              <a href={headerData.home}>
+                <span>{headerData.home}</span>
+                <img
+                  className={style.hIcon}
+                  src="/static/home.svg"
+                  alt="home"
+                />
               </a>
             </li>
             <li className={style.hLink}>
-              <a href="square2mikuzi@gmail.com">
-                <span>square2mikuzi@gmail.com</span>
-                <img className={style.hIcon} src='/static/email.svg' alt="email" />
+              <a
+                href={"mailto:" + headerData.email}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span>{headerData.email}</span>
+                <img
+                  className={style.hIcon}
+                  src="/static/email.svg"
+                  alt="email"
+                />
               </a>
             </li>
             <li className={style.hLink}>
-              <a href="https://github.com/Squares4">
-                <span>https://github.com/Squares4</span>
-                <img className={style.hIcon} src='/static/github.svg' alt="github" />
+              <a
+                href={headerData.github}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span>{headerData.github}</span>
+                <img
+                  className={style.hIcon}
+                  src="/static/github.svg"
+                  alt="github"
+                />
               </a>
             </li>
             <li className={style.hLink}>
-                <span>19999999999</span>
-                <img className={style.hIcon} src='/static/phone.svg' alt="phone" />
+              <a href={'tel:' + headerData.phone} target="_blank" rel="noopener noreferrer">
+                <span>{headerData.phone}</span>
+                <img
+                  className={style.hIcon}
+                  src="/static/phone.svg"
+                  alt="phone"
+                />
+              </a>
             </li>
           </ul>
         </div>

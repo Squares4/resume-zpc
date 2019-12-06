@@ -1,0 +1,26 @@
+@import "../base.scss";
+
+.sectionHeader {
+  overflow: hidden;
+  color: $color-font;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+  span {
+    height: 0;
+    width: 35%;
+    border-top: 1px solid $color-light;
+    vertical-align: middle;
+  }
+  h3 {
+    border-radius: 32px;
+    font-size: 18px;
+    text-align: center;
+    background-color: $b;
+    color: #fff;
+    min-width: 100px;
+    padding: 8px 14px;
+    margin: 0 10px;
+  }
+}

@@ -1,6 +1,6 @@
 # 个人简历 (开发中)
 
-由个人设计，基于NextJs的个人简历项目，灵感来源于[@ Cong Min ](https://github.com/mcc108/resume)
+基于NextJs的个人简历项目，灵感来源于[@ Cong Min ](https://github.com/mcc108/resume)
 
 ### 项目启动
 

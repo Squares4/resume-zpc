@@ -10,7 +10,7 @@
   display: flex;
   justify-content: space-between;
   padding-bottom: 20px;
-  border-bottom: 2px solid #515585;
+  border-bottom: 2px solid $color-font-vice;
   h1 {
     font-size: 50px;
     font-weight: 500;
@@ -26,6 +26,9 @@
     font-weight: 300;
     align-self: flex-end;
     color: $color-font-vice;
+    small {
+      font-size: 18px;
+    }
   }
 }
 
@@ -53,9 +56,6 @@
 
 .hLink {
   color: $color-font;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
   a {
     color: $color-font;
     display: flex;

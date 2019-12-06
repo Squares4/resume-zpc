@@ -1,10 +1,12 @@
 import React, { Fragment } from 'react';
 import style from './index.scss';
+import BodySection from '../BodySection';
 
 const Body = () => {
   return (
     <main className={style.mBody}>
-      body
+      <BodySection />
+      {/* <BodySection /> */}
     </main>
   )
 }
