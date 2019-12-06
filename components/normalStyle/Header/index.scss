@@ -4,6 +4,9 @@
   padding: 30px 40px;
   background: $color-bg;
   color: $color-font;
+  @media screen and (max-width: 720px) {
+    padding: 25px;
+  }
 }
 
 .name {
@@ -11,6 +14,10 @@
   justify-content: space-between;
   padding-bottom: 20px;
   border-bottom: 2px solid $color-font-vice;
+  @media screen and (max-width: 720px) {
+    flex-direction: column;
+    align-items: center;
+  }
   h1 {
     font-size: 50px;
     font-weight: 500;
@@ -20,6 +27,17 @@
       margin-left: 10px;
     }
     color: $color-font-title;
+    @media screen and (max-width: 720px) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 10px;
+      font-size: 60px;
+      small {
+        margin: 0;
+        font-size: 18px;
+      }
+    }
   }
   h2 {
     font-size: 24px;
@@ -28,6 +46,9 @@
     color: $color-font-vice;
     small {
       font-size: 18px;
+    }
+    @media screen and (max-width: 720px) {
+      align-self: center;
     }
   }
 }
@@ -38,6 +59,10 @@
   justify-content: space-between;
   font-size: 18px;
   font-weight: 300;
+  @media screen and (max-width: 720px) {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .school {
@@ -45,12 +70,18 @@
   li {
     padding: 8px 0;
   }
+  @media screen and (max-width: 720px) {
+    text-align: center;
+  }
 }
 
 .connect {
   font-size: 16px;
   li {
     padding: 6px 0;
+    @media screen and (max-width: 720px) {
+      display: inline-block;
+    }
   }
 }
 
@@ -62,10 +93,20 @@
     align-items: center;
     justify-content: flex-end;
   }
+  @media screen and (max-width: 720px) {
+    span {
+      display: none;
+    }
+  }
 }
 
 .hIcon {
   width: 16px;
   height: 16px;
   margin-left: 8px;
+  @media screen and (max-width: 720px) {
+    width: 32px;
+    height: 32px;
+    margin: 0 16px;
+  }
 }
