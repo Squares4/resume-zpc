@@ -5,7 +5,7 @@
   position: relative;
   justify-content: space-between;
   align-items: center;
-  margin: 10px 0;
+  margin: 16px 0;
   span {
     font-size: 18px;
     font-weight: 500;
@@ -26,20 +26,22 @@
   line-height: 25px;
   text-align: justify;
   word-break: break-all;
-  font-size: 16px;
+  font-size: 19px;
   position: relative;
+  margin: 8px 0;
   strong {
     padding: 2px 4px;
-    margin: 0 3px;
-    background-color: $a;
-    font-weight: 400;
+    margin: 0 10px;
+    background-color: rgba(107, 168, 169, 1);
+    color: #fff;
+    font-weight: 300;
     border-radius: 3px;
   }
   em {
     border: 1px solid #e6e6e6;
     border-radius: 3px;
     color: #383838;
-    font-weight: 400;
+    font-weight: 300;
     margin: 0 3px;
     padding: 0 4px;
     background-color: #f6f6f6;
