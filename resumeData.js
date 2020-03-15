@@ -44,7 +44,7 @@ global.resumeData = {
             `<i></i>能够熟练使用<em>React及其相关技术栈</em>进行开发，了解过React底层，并对<em>Ant Design</em>、<em>Taro</em>框架有较深的实践。`,
             `<i></i>熟悉<em>ES6+</em>规范，熟悉<em>TypeScript</em>的使用，了解<em>前端工程化</em>，能够编写<em>Webpack</em>的基本配置，对<em>性能优化</em>有一定的思考。`,
             // `<i></i>有一定全栈经验，能够使用<em>Koa</em>、<em>Eggjs</em>配合数据库<em>mysql</em>、<em>Redis</em>开发web服务端。能够高效地与后台定位问题，高效地进行开发。`,
-            `<i></i>有一定全栈经验，能够使用<em>Eggjs</em>配合数据库mysql开发web服务端。能够高效地与后台定位问题，高效地进行开发。`,
+            `<i></i>有一定全栈经验，能够使用<em>EggJs</em>配合数据库开发web服务端。能够高效地与后台定位问题，高效地进行开发。`,
             `<i></i>对<em>数据结构</em>、<em>计算机网络</em>、<em>网络安全</em>有一定的思考。`,
             `<i></i>熟练使用<em>Git</em>进行版本控制和代码托管、<em>Markdown</em>进行文档编写，了解项目常规开发流程、<em>开发调试</em>技巧、<em>发布部署</em>步骤，掌握<em>类Unix</em>服务器基本运维能力，能够使用<em>Nginx</em>进行页面部署，能够使用<em>Jenkins</em>进行简单的自动化部署。`,
           ]
@@ -56,7 +56,7 @@ global.resumeData = {
       items: [
         {
           content: [
-            `<i></i>能够时刻保持<em>好奇心</em>，具有一定的<em>创新创造</em>精神，持续关注业内前沿技术。工作上<em>积极执行</em><em>有责任心</em>，具有良好的<em>沟通合作</em>能力、<em>分析解决问题</em>能力以及较强的<em>学习能力</em>。`
+            `<i></i>本人拥有对新技术的<em>好奇心</em>，关注业内前沿技术，有一定的创造精神和探索精神，能够<em>积极执行</em>工作，<em>有责任心</em>，具有良好的<em>沟通合作</em>能力、<em>分析解决问题</em>能力以及较强的<em>学习能力</em>。`
           ]
         }
       ]
@@ -73,15 +73,15 @@ global.resumeData = {
           content: [
             `<strong>项目介绍</strong>
             果然邮你是专注于为在校大学生服务，对客户进行水果、零食配送的小程序。`,
-            `<i></i><em>全栈项目</em> ，使用<em>Typescript</em>组织代码， 使用<em>Taro</em>框架进行小程序页面开发，使用阿里开源后台框架<em>Egg.js</em>进行后台开发，数据库采用Mysql存储信息，并用Redis做登录状态缓存。`,
-            `<i></i>开源框架<em>Taro</em>能够适配多端，其使用<em>Webpack</em>进行前端工程化，能够使用<em>SCSS</em>等CSS预编译器，使用<em>Babel</em>转义以更好地支持<em>ES6+</em>的语法特性。`,
+            `<i></i><em>全栈项目</em> ，使用<em>Typescript</em>组织代码， 使用<em>Taro</em>框架进行小程序页面开发，使用阿里开源后台框架<em>EggJs</em>进行后台开发。`,
+            `<i></i>开源框架<em>Taro</em>能够适配多端，其使用<em>Webpack</em>进行前端工程化，能够使用<em>SCSS</em>等CSS预编译器。`,
             `<i></i>使用<em>WebSocket</em>构建商家顾客的交流通道，使用心跳机制维持一定的会话稳定性。`
             // `<i></i>用户登录时，判断小程序用户缓存中token的存在。不存在则调用小程序登录接口，获取解密的用户信息并随机生成随机字符串值作为key，将用户信息作为value存入redis，将key作为token与登录结果返回给前端；存在则用token换取用户信息。`
           ]
         },
         {
           name: '云印蜂',
-          time: '2019.07 ~ 2019.08',
+          time: '2019.07 ~ 2019.09',
           tag: 'H5｜管理端',
           content: [
             `<strong>项目介绍</strong>
