@@ -3,4 +3,7 @@
 .content {
   padding: 0px 18px;
   width: 50%;
+  @media screen and (max-width: 1024px) {
+    width: auto;
+  }
 }
