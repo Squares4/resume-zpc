@@ -88,7 +88,7 @@ global.resumeData = {
             `<i></i>使用<em>Typescript</em>组织代码，使用<em>Taro</em>进行H5页面开发并适配多端。管理端使用<em>Ant Design Pro</em>进行搭建。`,
             `<i></i>支持对文件的<em>分片上传</em>、<em>断点续传</em>，保障文件上传的稳定性。`,
             `<i></i>在管理端中，实现了<em>权限管理</em>、<em>mock数据</em>等功能，方便项目的维护以及后续迭代。`,
-            `<i></i>使用<em>Token</em>和<em>Cookie-Session</em>分别维护H5和管理端用户的<em>登陆态</em>，避免用户重复验证登陆。`
+            `<i></i>使用<em>Json Web Token</em>和<em>Cookie-Session</em>分别维护H5和管理端用户的<em>登陆态</em>，避免用户重复验证登陆。`
           ]
         },
         {
